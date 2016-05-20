@@ -1,0 +1,27 @@
+{
+  "name": "sharky",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "commander": "2.7.1",
+    "mkdirp": "0.5.1",
+    "prompt": "^1.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "sharky": "./bin/sharky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facascante/sharky.git"
+  },
+  "keywords": [
+    "sharky"
+  ],
+  "author": "Chito Cascante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facascante/sharky/issues"
+  },
+  "homepage": "https://github.com/facascante/sharky#readme"
+}
