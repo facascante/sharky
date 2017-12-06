@@ -1,11 +1,12 @@
 {
   "name": "sharky",
   "version": "0.0.0",
-  "description": "",
+  "description": "Use this to have an event base programming in nodejs",
   "dependencies": {
     "commander": "2.7.1",
     "mkdirp": "0.5.1",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "shortid": "^2.2.8"
   },
   "preferGlobal": true,
   "bin": {
@@ -23,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/facascante/sharky/issues"
   },
-  "homepage": "https://github.com/facascante/sharky#readme"
+  "homepage": "https://github.com/facascante/sharky#readme",
+  "main": "sharky.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"not implemented yet\""
+  }
 }
